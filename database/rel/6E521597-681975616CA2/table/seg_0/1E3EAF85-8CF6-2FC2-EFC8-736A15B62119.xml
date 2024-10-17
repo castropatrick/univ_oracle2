@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E3EAF85-8CF6-2FC2-EFC8-736A15B62119" name="PROFESSOR">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:36 UTC</createdTime>
+<generatorID>42F12424-6A46-96E7-5FA4-ED77E09CB9CF</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_professor" id="70FB7935-D3B0-BAC7-FDEC-6088AC1C7A0D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:36 UTC</createdTime>
+<generatorID>1B044230-5243-4635-13AE-503A4BA8E607</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_professor" id="A07B0DB6-9742-C742-2C2C-02A3D4D50FEA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:36 UTC</createdTime>
+<generatorID>524E3867-622B-2836-F598-67392C4F212D</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="3471166D-22B2-8B3A-2399-01FD7D4E9B62">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:36 UTC</createdTime>
+<generatorID>AD1EFC4F-BF3C-8DFF-7FBA-0ABFCF8C5C95</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gr_professor" id="E68586F8-FECC-C5BE-5EF1-E0D0D3ED5013">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:36 UTC</createdTime>
+<generatorID>A477276A-2EA3-AAD5-B8CF-EEE2265A2308</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="9D70B8D3-4731-7CB3-9EC7-8C996B69686A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:36 UTC</createdTime>
+<generatorID>5C48158E-CEFC-BB10-E2AE-40C1DA91820C</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulacao" id="66AE63B3-8667-A298-F9FE-EFC3903FB9DC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:36 UTC</createdTime>
+<generatorID>AA3EE8EF-2F2D-658A-0297-8B6624CA04F0</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B42C876-194C-F7C0-990B-EE013F76B636" name="PROFESSOR_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:36 UTC</createdTime>
+<generatorID>FC4D89B6-D8E6-F9C7-954B-7D4EB0E0820E</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70FB7935-D3B0-BAC7-FDEC-6088AC1C7A0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="883F5637-0090-BC1D-A195-3B93B2D8093D" name="TURMA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:36 UTC</createdTime>
+<generatorID>30DDFFE4-CCC2-CDD9-1124-157C487A3CAE</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_turma" id="5724C685-9186-A547-EAFE-0CC4425C82D4">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:36 UTC</createdTime>
+<generatorID>14AE6730-B8A1-E5CD-9019-C949829CC34C</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sg_turma" id="A35FE0AE-7CBA-4538-8FAE-C4B50333ACCD">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:36 UTC</createdTime>
+<generatorID>54459160-1959-224E-12E1-77D3129C85EC</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="periodo" id="CF51B984-D128-1C2D-DC10-E8FC70B41A9C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valores a serem guardados é: "Manhã", "Tarde" e "Noite"]]></commentInRDBMS>
+<generatorID>5871457A-386B-7909-56C3-D531C808FA87</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="semestre" id="ECDF6C6B-7002-331F-FA11-EC9318E9DD80">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valores a serem guardados é: "1SEM" ou "2SEM"]]></commentInRDBMS>
+<generatorID>E1216E24-D2C6-C57A-AC24-C283304C4562</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano" id="E332BD1F-7997-EEE1-7F41-E60AE8F1A387">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valores a serem guardados é: Apenas o ano em YYYY]]></commentInRDBMS>
+<generatorID>EBE0C8C5-C298-E74A-854A-5F63BF9053C7</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURSO_id_curso" id="D862794D-C349-E38E-9C11-F711BE72EE72">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:36 UTC</createdTime>
+<generatorID>637EB396-8F7F-B975-25D7-724BAADCB840</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C60A9EB-851A-B69D-F5F2-2215144E360A" referredColumn="4BF8E52F-E71D-1DDA-A7CF-EEF4C8778A7C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D11F382-B699-9E0C-FF04-851950377186" name="TURMA_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:36 UTC</createdTime>
+<generatorID>5885404F-9353-B984-1D4B-FEFCC8685A0A</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5724C685-9186-A547-EAFE-0CC4425C82D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E724899-EC92-79DD-0C07-084AA1DD9795" name="TURMA_CURSO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:36 UTC</createdTime>
+<generatorID>5EFC846D-7302-2164-A6ED-2E14B7924DC7</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D862794D-C349-E38E-9C11-F711BE72EE72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
